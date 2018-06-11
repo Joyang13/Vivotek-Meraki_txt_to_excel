@@ -1,0 +1,10 @@
+Test Date:2018-05-15 15:53:59
+Firmware version:FD9172-MRKI-0400d
+Model Name:FD9172HVW-MRKI
+--------------------------------------------------
+Test Case 1:Network
+    Ping_time:0.389999866486
+    Result:Fail
+Test Result Fail
+--------------------------------------------------
+

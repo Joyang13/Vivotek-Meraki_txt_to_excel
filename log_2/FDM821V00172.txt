@@ -1,0 +1,79 @@
+Test Date:2018-05-24 09:52:46
+Firmware version:FD9172-MRKI-0400d
+Model Name:FD9172HVW-MRKI
+--------------------------------------------------
+Test Case 1:Network
+    Ping_time:5.15100002289
+    Minor Number from MES:412
+    Result:Pass
+Test Case 2:Check Setting
+    Firmware version:FD9172-MRKI-0400d
+    Model Name:FD9172HVW-MRKI
+    4M:Pass
+    Result:Pass
+Test Case 3:Auto Test
+    Ethernet:Pass
+    DRAM:memtester 2M 2 Pass
+    Audio:Pass
+    Video Sensor:Pass
+    Wireless:Pass
+    BurnIn:Pass
+    RTC:Fri Feb 23 00:55:38 2018  0.000000 seconds
+    Result:Pass
+Test Case 4:Button
+    seconds:10.746999979
+    Result:Pass
+Test Case 5:LED
+    Result:Pass
+Test Case 6:Light Sensor
+    Led on of sensor value:32069
+    Pass:Light Sensor value > 25000
+    Led off of sensor value:0
+    Pass:Light Sensor value < 100
+    Result:Pass
+Test Case 7:VideoAudio
+  IR Cut
+    Led on & IR-cut off Y-value:59
+    Led on & IR-cut on Y-value:115
+    IR-Cut:off < on
+    Led off & IR-cut on Y-value:18
+    Led:off < on
+  Audio Record
+  Video Verify
+    Video IR-Cut off:Pass
+    Video IR-Cut on:Pass
+    Result:Pass
+Test Case 8:Upgrade Firmware
+    Upgrade FW Ping Time:29.0
+    Result:Pass
+Test Case 9:Update Mac and Sn
+    Meraki FW Ping Time:137.476999998
+    OP Scan MAC:34:56:FE:A2:28:B9
+    DUT odm mac read:34:56:FE:A2:28:B9
+    OP Scan SN:Q2FV-VDJ9-HVTD
+    DUT odm serial_num read:Q2FV-VDJ9-HVTD
+    Setting Product ID:meraki_MV12WE
+    DUT odm product_id read:meraki_MV12WE
+    Setting minor number:412
+    DUT odm hw_minor read:412
+    Result:Pass
+Test Case 10:Check Mac and Sn
+    Meraki FW Ping Time:0.516999959946
+    OP Scan MAC:34:56:FE:A2:28:B9
+    DUT odm mac read:34:56:FE:A2:28:B9
+    OP Scan SN:Q2FV-VDJ9-HVTD
+    DUT odm serial_num read:Q2FV-VDJ9-HVTD
+    Setting Product ID:meraki_MV12WE
+    DUT odm product_id read:meraki_MV12WE
+    Setting minor number:412
+    DUT odm hw_minor read:412
+    Result:Pass
+Test Case 11:Security Boot
+    odm sec_boot_enable:0+1 records in
+0+1 records out
+436 bytes (436B) copied, 0.005702 seconds, 74.7KB/s
+Secure boot written. Device must be rebooted to take effect.
+    Result:Pass
+Test Result Pass
+--------------------------------------------------
+

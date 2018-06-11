@@ -1,0 +1,17 @@
+Test Date:2018-05-17 14:22:29
+Firmware version:FD9172-MRKI-0400d
+Model Name:FD9172HVW-MRKI
+--------------------------------------------------
+Test Case 1:Network
+    Ping_time:0.406000137329
+    Minor Number from MES:415
+    Result:Pass
+Test Case 2:Check Setting
+    Firmware version:FD9172-MRKI-0400d
+    Model Name:FD9172HVW-MRKI
+    Result:Pass
+Test Case 3:Auto Test
+    status: -30(sensor not found or initial fail)
+    Result:Fail
+Test Result Fail
+--------------------------------------------------

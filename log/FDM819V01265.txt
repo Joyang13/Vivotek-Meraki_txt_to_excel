@@ -1,0 +1,47 @@
+Test Date:2018-05-15 17:30:37
+Firmware version:FD9172-MRKI-0400d
+Model Name:FD9172HVW-MRKI
+--------------------------------------------------
+Test Case 1:Network
+    Ping_time:0.396000146866
+    Minor Number from MES:415
+    Result:Pass
+Test Case 2:Check Setting
+    Firmware version:FD9172-MRKI-0400d
+    Model Name:FD9172HVW-MRKI
+    Result:Pass
+Test Case 3:Auto Test
+    Ethernet:Pass
+    DRAM:memtester 2M 2 Pass
+    Audio:Pass
+    Video Sensor:Pass
+    Wireless:Pass
+    BurnIn:Pass
+    RTC:Mon Feb 26 14:56:57 2018  0.000000 seconds
+    Result:Pass
+Test Case 4:Button
+    seconds:2.18499994278
+    Result:Pass
+Test Case 5:LED
+    Result:Pass
+Test Case 6:Light Sensor
+    Led on of sensor value:31492
+    Pass:Light Sensor value > 25000
+    Led off of sensor value:0
+    Pass:Light Sensor value < 100
+    Result:Pass
+Test Case 7:VideoAudio
+  IR Cut
+    Led on & IR-cut off Y-value:30
+    Led on & IR-cut on Y-value:84
+    IR-Cut:off < on
+    Led off & IR-cut on Y-value:17
+    Led:off < on
+  Audio Record:Pass
+  Video Verify
+    Video IR-Cut off:Pass
+    Video IR-Cut on:Fail
+    Result:Fail
+Test Result Fail
+--------------------------------------------------
+
